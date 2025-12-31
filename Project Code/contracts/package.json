@@ -1,0 +1,22 @@
+{
+  "name": "verifiable-ai-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for verifiable AI decisions",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0"
+  }
+}
+

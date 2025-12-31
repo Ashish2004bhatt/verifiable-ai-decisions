@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\utkar\\OneDrive\\Desktop\\hackathon\\contracts\\contracts\\AIDecisionRegistry.sol": {
+      "lastModificationDate": 1767123062525,
+      "contentHash": "431780e02af98718b66a5bcd15e31463",
+      "sourceName": "contracts/AIDecisionRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "AIDecisionRegistry"
+      ]
+    }
+  }
+}
